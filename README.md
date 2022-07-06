@@ -6,7 +6,7 @@
 
  The user can add and remove employees 
  
- For frontend I used HTML, CSS and JavaScript
+ For frontend I used React.js
  
  For backend I used Node.js
  
