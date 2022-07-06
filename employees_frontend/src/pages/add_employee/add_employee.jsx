@@ -1,9 +1,9 @@
 import React from "react";
-import "../pages/add_employee.css";
+import "./add_employee.css";
 import {connect} from 'react-redux';
-import { addEmployee } from "../redux/list/list";
+import { addEmployee } from "../../redux/list/list";
 import { Link } from "react-router-dom";
-import Layout from "../components/layout";
+import Layout from "../../components/layout/layout";
 import Axios from 'axios'
 
 class add_employee extends React.Component{

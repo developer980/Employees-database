@@ -1,6 +1,6 @@
 import React from "react";
-import '../components/sideBar.css';
-import { filter_employees } from "../redux/filter/filter";
+import './sideBar.css';
+import { filter_employees } from "../../redux/filter/filter";
 import { connect } from "react-redux";
 
 class SideBar extends React.Component{

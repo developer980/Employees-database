@@ -1,6 +1,6 @@
 import React from "react";
 import "./item.css";
-import X from "../icons/x.svg";
+import X from "../../icons/x.svg";
 import Axios from "axios";
 
 function employee_item(props){

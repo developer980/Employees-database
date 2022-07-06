@@ -1,12 +1,12 @@
 import React from "react";
 import { connect } from "react-redux";
-import Employee_item from "./employee_item";
-import Layout from './layout';
-import Sidebar from "./Sidebar";
-import { filter_employees } from "../redux/filter/filter";
-import '../components/employeeList.css';
+import Employee_item from "../employees_item/employee_item";
+import Layout from '../layout/layout';
+import Sidebar from "../sidebar/Sidebar";
+import { filter_employees } from "../../redux/filter/filter";
+import './employeeList.css';
 import Axios from "axios";
-import X from "../icons/x.svg";
+import X from "../../icons/x.svg";
 
 class employee_list extends React.Component{
     constructor(props){

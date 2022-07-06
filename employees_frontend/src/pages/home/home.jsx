@@ -1,10 +1,10 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import Layout from '../components/layout';
-import Add from '../images/add.png';
-import List from '../images/list.png';
-import Office from '../images/office.jpg';
-import '../pages/home.css';
+import Layout from '../../components/layout/layout';
+import Add from '../../images/add.png';
+import List from '../../images/list.png';
+// import Office from '../../images/office.jpg';
+import './home.css';
 
 class Home extends React.Component{
     constructor(){
