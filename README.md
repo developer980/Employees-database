@@ -3,18 +3,13 @@
  The model of a company's employees database
  
  Stack used:
-  - Front-end:
-        - JavaScript;
-        - React;
+  - Front-end: JavaScript, React;
         
-  - Back-end:
-        - Node.js;
+  - Back-end: Node.js;
         
-  - Database:
-        - MySQL;
+  - Database: MySQL;
         
-  - Deployment:
-        -Netlify (for the frontend): https://beautiful-khapse-c8ada1.netlify.app/
+  - Deployment: Heroku (for the server and database), Netlify (for the frontend): https://beautiful-khapse-c8ada1.netlify.app/
 
  The user can add and remove employees from the database
 
